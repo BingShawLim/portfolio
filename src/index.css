@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.my-card {
+  margin:22px;
+}
+
+.my-card-image{
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0px 0px 6px 2px #ccc;
+}
+
+.my-card-info{
+  margin-top: 10px;
+  min-height: 100px;
+  width: 300px;
+}
+
+.my-card-title{
+  font-size: 24px;
+  margin:0px;
+}
+
+.my-card-sub-title {
+  font-size: 14px;
+  margin: 0px;
+}
+
+.my-profile {
+  margin-left:15px;
+}
+
+.my-profile-image{
+  border-radius: 25px;
+  width: 150px;
+  height: 200px;
+  box-shadow: 0px 0px 6px 2px #ccc;
+}
+.container{
+  display: flex;
+}
+
+.title{
+  margin-right: 10px;
+}
+
+.links{
+  color: black;
+}
