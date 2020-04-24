@@ -4,23 +4,24 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button'
 
 import Hero from './Hero';
 import Content from './Content';
 
 class Contact extends React.Component {
 
-    constructor(props){
-        super(props)
-        this.state={
-            name: '',
-            email: '',
-            message: '',
-            disabled: false,
-            mailSent: null,
+    // constructor(props){
+    //     super(props)
+    //     this.state={
+    //         name: '',
+    //         email: '',
+    //         message: '',
+    //         disabled: false,
+    //         mailSent: null,
 
-        }
-    }
+    //     }
+    // }
 
     // changeHandler = (event) => {
     //     console.log(event);
@@ -58,6 +59,11 @@ class Contact extends React.Component {
                     <p className="title font-weight-bolder">Email Me:</p>
                     <a href = "mailto: shaw.a.muvee@gmail.com" className="links font-weight-bolder">shaw.a.muvee@gmail.com</a>
                 </div>
+                <div className="container">
+                 <Button href="https://drive.google.com/file/d/11sJcIWkGU32g83JKcoCoWek28V-dsvRL/view?usp=sharing" className="btn btn-dark" target="_blank">View My Resume</Button>
+                </div>
+
+
                     {/* <Form onSubmit={this.submitHandler}>
                         <Form.Group>
                             <Form.Label htmlFor='full-name'> Full Name</Form.Label>
