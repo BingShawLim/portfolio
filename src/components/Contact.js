@@ -52,6 +52,11 @@ class Contact extends React.Component {
 
                 <Content>
                 <div className="container">
+                    <p className="title font-weight-bolder">My LinkedIn:</p>
+                    <a href = "https://www.linkedin.com/in/bing-shaw-lim/" className="links font-weight-bolder" target="_blank">Bing Shaw Lim</a>
+                </div>
+
+                <div className="container">
                     <p className="title font-weight-bolder">My GitHub:</p>
                     <a href = "https://github.com/BingShawLim" className="links font-weight-bolder" target="_blank">BingShawLim</a>
                 </div>

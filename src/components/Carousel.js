@@ -29,7 +29,7 @@ class Carousel extends Component {
                 {
                     id: 1,
                     title:'The Memoritor',
-                    subTitle:'Flip Card matching memory game made with Vanila JS,longterm learning project.',
+                    subTitle:'Flip Card matching memory game made with pure JS,longterm learning project.',
                     imgSrc: memoritor,
                     link:'https://the-memoritor-bingshaw.herokuapp.com',
                     selected: false
@@ -77,7 +77,7 @@ class Carousel extends Component {
                 {
                     id: 7,
                     title:'Catch of the Day',
-                    subTitle:'A fish market platform build with React.',
+                    subTitle:'A fish market platform built with React.',
                     imgSrc: catchotday,
                     link:'https://catch-of-the-day-react-virid.now.sh',
                     selected: false
