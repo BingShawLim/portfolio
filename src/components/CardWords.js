@@ -1,5 +1,6 @@
 import React from 'react'
 import {useSpring, animated} from 'react-spring';
+import Badge from 'react-bootstrap/Badge'
 
 function CardWords(props) {
 
@@ -11,11 +12,12 @@ function CardWords(props) {
     return (
         <animated.div className="my-card-info" style={style} >
             <p className="my-card-title">{props.title}</p>
+            <Badge pill variant="dark">
+            <a href={props.gitLink} target='-blank' rel="noopener noreferrer" style={{color:"white"}}>View Repository</a>
+            </Badge>
             <p className="my-card-sub-title">{props.subTitle}</p>
-            <div>
-            <a href={props.gitLink} target='-blank' rel="noopener noreferrer">View Repository</a>
             <a href={props.link} target='-blank' rel="noopener noreferrer">View Project</a>
-            </div>
+
         </animated.div>
     )
 }
