@@ -13,7 +13,7 @@ function CardWords(props) {
         <animated.div className="my-card-info" style={style} >
             <p className="my-card-title">{props.title}</p>
             <Badge pill variant="dark">
-            <a href={props.gitLink} target='-blank' rel="noopener noreferrer" style={{color:"white"}}>View Repository</a>
+            <a href={props.gitLink} target='-blank' rel="noopener noreferrer" style={{color:"white"}}>Go to Repository</a>
             </Badge>
             <p className="my-card-sub-title">{props.subTitle}</p>
             <a href={props.link} target='-blank' rel="noopener noreferrer">View Project</a>
