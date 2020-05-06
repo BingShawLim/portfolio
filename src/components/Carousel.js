@@ -23,6 +23,7 @@ class Carousel extends Component {
                     title:'PicPicLand',
                     subTitle:'An Ruby on Rails instagram look alike project.',
                     imgSrc: picpicland,
+                    gitLink: https://github.com/BingShawLim/picpicland,
                     link:'https://picpicland-01.herokuapp.com',
                     selected: false
                 },
@@ -31,6 +32,7 @@ class Carousel extends Component {
                     title:'The Memoritor',
                     subTitle:'Flip Card matching memory game made with pure JS,longterm learning project.',
                     imgSrc: memoritor,
+                    gitLink: https://github.com/BingShawLim/thememoritor,
                     link:'https://the-memoritor-bingshaw.herokuapp.com',
                     selected: false
                 },
@@ -39,6 +41,7 @@ class Carousel extends Component {
                     title:'todo-mvc practice',
                     subTitle:'Javascript user interface practice project.',
                     imgSrc: todomvc,
+                    gitLink: https://github.com/BingShawLim/todo1-redo,
                     link:'https://todo-redo-bingshaw.herokuapp.com',
                     selected: false
                 },
@@ -47,6 +50,7 @@ class Carousel extends Component {
                     title:'Mello',
                     subTitle:'A Trello clone made with JavaScript and jQuery',
                     imgSrc: mello,
+                    gitLink: https://github.com/BingShawLim/mello-rails,
                     link:'https://mello-rails-bshaw.herokuapp.com/boards',
                     selected: false
                 },
@@ -55,6 +59,7 @@ class Carousel extends Component {
                     title:'Nomster',
                     subTitle:'A Yelp clone made with Ruby on Rails.',
                     imgSrc: nomster,
+                    gitLink: https://github.com/BingShawLim/nomster.1,
                     link:'https://bing-nomster-v2.herokuapp.com',
                     selected: false
                 },
@@ -63,6 +68,7 @@ class Carousel extends Component {
                     title:'Kidultv',
                     subTitle:'A video Learning Platform made with Ruby on Rails and Javascript',
                     imgSrc: kidultv,
+                    gitLink: https://github.com/BingShawLim/kidultv,
                     link:'https://kidultv-1.herokuapp.com',
                     selected: false
                 },
@@ -71,6 +77,7 @@ class Carousel extends Component {
                     title:'React Note App',
                     subTitle:'A note app made with React',
                     imgSrc: reactnote,
+                    gitLink: https://github.com/BingShawLim/react-note-re,
                     link:'https://react-note-re.herokuapp.com',
                     selected: false
                 },
@@ -79,6 +86,7 @@ class Carousel extends Component {
                     title:'Catch of the Day',
                     subTitle:'A fish market platform built with React.',
                     imgSrc: catchotday,
+                    gitLink: https://github.com/BingShawLim/catchoftheday1,
                     link:'https://catch-of-the-day-react-virid.now.sh',
                     selected: false
                 },

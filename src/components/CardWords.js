@@ -12,7 +12,10 @@ function CardWords(props) {
         <animated.div className="my-card-info" style={style} >
             <p className="my-card-title">{props.title}</p>
             <p className="my-card-sub-title">{props.subTitle}</p>
-            <a href={props.link} target='-blank' rel="noopener noreferrer">VIEW</a>
+            <div>
+            <a href={props.gitLink} target='-blank' rel="noopener noreferrer">View Repository</a>
+            <a href={props.link} target='-blank' rel="noopener noreferrer">View Project</a>
+            </div>
         </animated.div>
     )
 }
