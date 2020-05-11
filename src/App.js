@@ -45,15 +45,15 @@ class App extends React.Component {
           <Navbar.Collapse id="navbar-toggle">
             <Nav className="ml-auto">
               <Link className="nav-link" to="/portfolio">MyProject</Link>
-              <Link className="nav-link" to="/about">AboutMe</Link>
-              <Link className="nav-link" to="/contact">Contact</Link>
+              <Link className="nav-link" to="/portfolio/about">AboutMe</Link>
+              <Link className="nav-link" to="/portfolio/contact">Contact</Link>
             </Nav>
           </Navbar.Collapse>
           </Navbar>
           <Route path="/" exact render={()=> <Home title={this.state.home.title} subTitle={this.state.home.subTitle} words={this.state.home.words}/>} />
           <Route path="/portfolio" exact render={()=> <Home title={this.state.home.title} subTitle={this.state.home.subTitle} words={this.state.home.words}/>} />
-          <Route path="/about" exact render={()=> <About title={this.state.about.title} subTitle={this.state.about.subTitle} />} />
-          <Route path="/contact" exact render={()=> <Contact title={this.state.contact.title} />} />
+          <Route path="/portfolio/about" exact render={()=> <About title={this.state.about.title} subTitle={this.state.about.subTitle} />} />
+          <Route path="/portfolio/contact" exact render={()=> <Contact title={this.state.contact.title} />} />
 
           <Footer />
         </Container>
