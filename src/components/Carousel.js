@@ -11,6 +11,7 @@ import nomster from '../assets/images/nomster.JPG'
 import kidultv from '../assets/images/kidultv.JPG'
 import reactnote from '../assets/images/reactnote.JPG'
 import catchotday from '../assets/images/catchotday.JPG'
+import whiteboardhook from '../assets/images/whiteboard-hooks.jpeg'
 
 
 class Carousel extends Component {
@@ -38,11 +39,11 @@ class Carousel extends Component {
                 },
                 {
                     id: 2,
-                    title:'todo-mvc practice',
-                    subTitle:'Javascript user interface practice project.',
-                    imgSrc: todomvc,
-                    gitLink: 'https://github.com/BingShawLim/todo1-redo',
-                    link:'https://todo-redo-bingshaw.herokuapp.com',
+                    title:'White-Board!',
+                    subTitle:'simple Painting app creact with React, using Hooks.',
+                    imgSrc: whiteboardhook,
+                    gitLink: 'https://github.com/BingShawLim/white-board-hooks',
+                    link:'https://white-board-hooks.herokuapp.com',
                     selected: false
                 },
                 {
@@ -88,6 +89,15 @@ class Carousel extends Component {
                     imgSrc: catchotday,
                     gitLink: 'https://github.com/BingShawLim/catchoftheday1',
                     link:'https://catch-of-the-day-react-virid.now.sh',
+                    selected: false
+                },
+                {
+                    id: 8,
+                    title:'todo-mvc practice',
+                    subTitle:'Javascript user interface practice project.',
+                    imgSrc: todomvc,
+                    gitLink: 'https://github.com/BingShawLim/todo1-redo',
+                    link:'https://todo-redo-bingshaw.herokuapp.com',
                     selected: false
                 },
             ]
