@@ -22,7 +22,7 @@ class Carousel extends Component {
                 {
                     id: 0,
                     title:'PicPicLand',
-                    subTitle:'An Ruby on Rails instagram look alike project.',
+                    subTitle:'A Ruby on Rails instagram look alike project.',
                     imgSrc: picpicland,
                     gitLink: 'https://github.com/BingShawLim/picpicland',
                     link:'https://picpicland-01.herokuapp.com',
