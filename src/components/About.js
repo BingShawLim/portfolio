@@ -15,9 +15,9 @@ function About(props) {
                 <div>
                     <h3>Front-End Web Developer with Graphic Design & native level Chinese language skills.</h3>
 
-                    <p>Having developed skills in HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, JQuery, Ruby, Ruby on Rails, Firebase and Postgresql.</p>
+                    <p>Having developed skills in HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, JQuery, Ruby, Ruby on Rails, Firebase and PostgreSQL.</p>
 
-                    <p>I am constantly learning new skills, currently enhancing my ReactJS knowledge by building different projects, and gaining backend database technology.</p>
+                    <p>I am constantly learning about new tools and technics, currently enhancing my ReactJS knowledge by building different projects, and gaining backend database skills.</p>
 
                     <p>Known as a quick learner and good resource to ask the right questions, to get the right solution for the problems. Passionate about developing web applications and responsive websites.</p>
 
