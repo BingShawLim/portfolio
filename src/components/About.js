@@ -12,6 +12,7 @@ function About(props) {
             <Hero title={props.title}/>
             <Content>
             <div className="container">
+                <div>
                 <h3>Front-End Web Developer with Graphic Design experience and fluency in Chinese.</h3>
 
                 <p>Recently developed skills in HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, JQuery, Ruby, Ruby on Rails, Firebase and PostgreSQL.</p>
@@ -21,6 +22,7 @@ function About(props) {
                 <p>Known as a quick learner and excellent problem solver. Passionate about developing web applications and responsive websites. A team player with the ability to grow myself and my team.</p>
 
                 <p>I hope to work for a company that values my skill set and that looks for individuals who can think outside the box, for solutions to real-world problems, and evolving and growing with a diverse team.</p>
+                </div>
                 <div className="my-profile">
                 <img className="my-profile-image" src={meimg} alt={meimg}/>
                 </div>
