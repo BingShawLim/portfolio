@@ -13,15 +13,15 @@ function About(props) {
             <Content>
             <div className="container">
                 <div>
-                    <h3>Front-End Web Developer with Graphic Design & native level Chinese language skills.</h3>
+                    <h3>Front-End Web Developer with Graphic Design experience and fluency in Chinese.</h3>
 
-                    <p>Having developed skills in HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, JQuery, Ruby, Ruby on Rails, Firebase and PostgreSQL.</p>
+                    <p>Recently developed skills in HTML5, CSS3, Bootstrap, JavaScript, ReactJS, Redux, JQuery, Ruby, Ruby on Rails, Firebase and PostgreSQL.</p>
 
-                    <p>I am constantly learning about new tools and technics, currently enhancing my ReactJS knowledge by building different projects, and gaining backend database skills.</p>
+                    <p>I am constantly learning about new tools and techniques, while enhancing my ReactJS knowledge by building different projects and gaining backend database skills. </p>
 
-                    <p>Known as a quick learner and good resource to ask the right questions, to get the right solution for the problems. Passionate about developing web applications and responsive websites.</p>
+                    <p>Known as a quick learner and excellent problem solver. Passionate about developing web applications and responsive websites. A team player with the ability to grow myself and my team.</p>
 
-                    <p>A team-oriented player with the ability to grow myself and my team.  My desire is a position with a company that values my skill set and that looks for individuals who can think outside the box, for solutions to real-world problems, evolving and growing with a diverse team. </p>
+                    <p>I hope to work for a company that values my skill set and that looks for individuals who can think outside the box, for solutions to real-world problems, and evolving and growing with a diverse team.</p>
                 </div>
                 <div className="my-profile">
                 <img className="my-profile-image" src={meimg} alt={meimg}/>
