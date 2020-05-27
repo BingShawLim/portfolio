@@ -12,6 +12,7 @@ import kidultv from '../assets/images/kidultv.JPG'
 import reactnote from '../assets/images/reactnote.JPG'
 import catchotday from '../assets/images/catchotday.JPG'
 import whiteboardhook from '../assets/images/whiteboard-hooks.jpeg'
+import todomongodb from '../assets/images/todo-mongodb.jpeg'
 
 
 class Carousel extends Component {
@@ -101,6 +102,16 @@ class Carousel extends Component {
                 },
                 {
                     id: 8,
+                    title:'todo-mongoDB',
+                    subTitle:'A project for practice purposes about MongoDB and ExpressJS.',
+                    tools: ["JAVASCRIPT", "ExpressJS", "MongoDB"],
+                    imgSrc: todomongodb,
+                    gitLink: 'https://github.com/BingShawLim/todo-mongoDB',
+                    link:'https://todo-app-learn-express-mongodb.herokuapp.com',
+                    selected: false
+                },
+                {
+                    id: 9,
                     title:'todo-mvc practice',
                     subTitle:'Javascript user interface practice project.',
                     tools: ["JAVASCRIPT", "RAIL"],
