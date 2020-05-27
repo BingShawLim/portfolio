@@ -103,7 +103,7 @@ class Carousel extends Component {
                 {
                     id: 8,
                     title:'todo-mongoDB',
-                    subTitle:'A project for practice purposes about MongoDB and ExpressJS.',
+                    subTitle:'A practice project to learn MongoDB and ExpressJS.',
                     tools: ["JAVASCRIPT", "ExpressJS", "MongoDB"],
                     imgSrc: todomongodb,
                     gitLink: 'https://github.com/BingShawLim/todo-mongoDB',
