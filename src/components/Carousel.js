@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 
 import Card from './Card'
+
 import picpicland from '../assets/images/picpicland.JPG'
 import memoritor from '../assets/images/memoritor.JPG'
 import todomvc from '../assets/images/todomvc.JPG'
@@ -13,6 +14,7 @@ import reactnote from '../assets/images/reactnote.JPG'
 import catchotday from '../assets/images/catchotday.JPG'
 import whiteboardhook from '../assets/images/whiteboard-hooks.jpeg'
 import todomongodb from '../assets/images/todo-mongodb.jpeg'
+import moviebook from '../assets/images/movieBookReact.jpeg'
 
 
 class Carousel extends Component {
@@ -62,6 +64,16 @@ class Carousel extends Component {
                 },
                 {
                     id: 4,
+                    title:'Movie Book',
+                    subTitle:'A basic movie searching app creacted with ReactJS.',
+                    tools: ["JAVASCRIPT", "REACT", "TMBD API"],
+                    imgSrc: moviebook,
+                    gitLink: 'https://github.com/BingShawLim/movie-book-react',
+                    link:'https://movie-book-react.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 5,
                     title:'Mello',
                     subTitle:'A Trello clone made with JavaScript and jQuery',
                     tools: ["JAVASCRIPT", "JQUERY", "RAIL"],
@@ -71,23 +83,13 @@ class Carousel extends Component {
                     selected: false
                 },
                 {
-                    id: 5,
+                    id: 6,
                     title:'Nomster',
                     subTitle:'A Yelp clone made with Ruby on Rails.',
                     tools: ["RUBY", "RAIL", "BOOTSTRAP"],
                     imgSrc: nomster,
                     gitLink: 'https://github.com/BingShawLim/nomster.1',
                     link:'https://bing-nomster-v2.herokuapp.com',
-                    selected: false
-                },
-                {
-                    id: 6,
-                    title:'PicPicLand',
-                    subTitle:'A Ruby on Rails instagram look alike project.',
-                    tools: ["RUBY", "RAIL", "BOOTSTRAP"],
-                    imgSrc: picpicland,
-                    gitLink: 'https://github.com/BingShawLim/picpicland',
-                    link:'https://picpicland-01.herokuapp.com',
                     selected: false
                 },
                 {
@@ -112,6 +114,16 @@ class Carousel extends Component {
                 },
                 {
                     id: 9,
+                    title:'PicPicLand',
+                    subTitle:'A Ruby on Rails instagram look alike project.',
+                    tools: ["RUBY", "RAIL", "BOOTSTRAP"],
+                    imgSrc: picpicland,
+                    gitLink: 'https://github.com/BingShawLim/picpicland',
+                    link:'https://picpicland-01.herokuapp.com',
+                    selected: false
+                },
+                {
+                    id: 10,
                     title:'todo-mvc practice',
                     subTitle:'Javascript user interface practice project.',
                     tools: ["JAVASCRIPT", "RAIL"],
