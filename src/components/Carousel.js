@@ -66,7 +66,7 @@ class Carousel extends Component {
                     id: 4,
                     title:'Movie Book',
                     subTitle:'A basic movie searching app creacted with ReactJS.',
-                    tools: ["JAVASCRIPT", "REACT", "TMBD API"],
+                    tools: ["JAVASCRIPT", "REACT", "TMDB API"],
                     imgSrc: moviebook,
                     gitLink: 'https://github.com/BingShawLim/movie-book-react',
                     link:'https://movie-book-react.herokuapp.com/',
