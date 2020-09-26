@@ -6,7 +6,7 @@ import Card from './Card'
 
 import picpicland from '../assets/images/picpicland.JPG'
 import memoritor from '../assets/images/memoritor.JPG'
-import todomvc from '../assets/images/todomvc.JPG'
+import writeMEN from '../assets/images/writeMEN.jpeg'
 import mello from '../assets/images/mello.JPG'
 import nomster from '../assets/images/nomster.JPG'
 import kidultv from '../assets/images/kidultv.JPG'
@@ -64,12 +64,12 @@ class Carousel extends Component {
                 },
                 {
                     id: 4,
-                    title:'Movie Book',
-                    subTitle:'A basic movie searching app creacted with ReactJS.',
-                    tools: ["JAVASCRIPT", "REACT", "TMDB API"],
-                    imgSrc: moviebook,
-                    gitLink: 'https://github.com/BingShawLim/movie-book-react',
-                    link:'https://movie-book-react.herokuapp.com/',
+                    title:'Write.MEN',
+                    subTitle:'A blog platform to let people write again.',
+                    tools: ["JAVASCRIPT", "MongoDB", "Node JS", "Express JS"],
+                    imgSrc: writeMEN,
+                    gitLink: 'https://github.com/BingShawLim/write-men',
+                    link:'https://write-men.herokuapp.com',
                     selected: false
                 },
                 {
@@ -104,6 +104,16 @@ class Carousel extends Component {
                 },
                 {
                     id: 8,
+                    title:'Movie Book',
+                    subTitle:'A basic movie searching app creacted with ReactJS.',
+                    tools: ["JAVASCRIPT", "REACT", "TMDB API"],
+                    imgSrc: moviebook,
+                    gitLink: 'https://github.com/BingShawLim/movie-book-react',
+                    link:'https://movie-book-react.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 9,
                     title:'todo-mongoDB',
                     subTitle:'A practice project to learn MongoDB and ExpressJS.',
                     tools: ["JAVASCRIPT", "ExpressJS", "MongoDB"],
@@ -113,23 +123,13 @@ class Carousel extends Component {
                     selected: false
                 },
                 {
-                    id: 9,
+                    id: 10,
                     title:'PicPicLand',
                     subTitle:'A Ruby on Rails instagram look alike project.',
                     tools: ["RUBY", "RAIL", "BOOTSTRAP"],
                     imgSrc: picpicland,
                     gitLink: 'https://github.com/BingShawLim/picpicland',
                     link:'https://picpicland-01.herokuapp.com',
-                    selected: false
-                },
-                {
-                    id: 10,
-                    title:'todo-mvc practice',
-                    subTitle:'Javascript user interface practice project.',
-                    tools: ["JAVASCRIPT", "RAIL"],
-                    imgSrc: todomvc,
-                    gitLink: 'https://github.com/BingShawLim/todo1-redo',
-                    link:'https://todo-redo-bingshaw.herokuapp.com',
                     selected: false
                 },
             ]
