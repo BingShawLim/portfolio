@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ad186d8bddf28f2ab3a5eb83f10542c",
+    "revision": "5b75f324013ae2c5c0fd548e1a037d05",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "db53eb454a79c03741ce",
+    "revision": "b7e93da04572dfc301b3",
     "url": "/portfolio/static/css/2.397eae54.chunk.css"
   },
   {
-    "revision": "8277dbc2f87af257c5dc",
+    "revision": "4830ada71a83e96a3ab7",
     "url": "/portfolio/static/css/main.e7084da4.chunk.css"
   },
   {
-    "revision": "db53eb454a79c03741ce",
-    "url": "/portfolio/static/js/2.67c2b06e.chunk.js"
+    "revision": "b7e93da04572dfc301b3",
+    "url": "/portfolio/static/js/2.a2712046.chunk.js"
   },
   {
     "revision": "56729d980da09961afe8d497a21eec12",
-    "url": "/portfolio/static/js/2.67c2b06e.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.a2712046.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8277dbc2f87af257c5dc",
-    "url": "/portfolio/static/js/main.ec0be28d.chunk.js"
+    "revision": "4830ada71a83e96a3ab7",
+    "url": "/portfolio/static/js/main.d5cadbd0.chunk.js"
   },
   {
     "revision": "6c1d3ad26a766dc494c1",
@@ -68,11 +68,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/todo-mongodb.2659c0d0.jpeg"
   },
   {
-    "revision": "8aebd5c044acec2480020e1a90e0c9a4",
-    "url": "/portfolio/static/media/todomvc.8aebd5c0.JPG"
-  },
-  {
     "revision": "34b59e42063334d2669f39fb75dcb412",
     "url": "/portfolio/static/media/whiteboard-hooks.34b59e42.jpeg"
+  },
+  {
+    "revision": "7ce10e4012e30995150f7bd26e6edff3",
+    "url": "/portfolio/static/media/writeMEN.7ce10e40.jpeg"
   }
 ]);
